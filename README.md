@@ -10,4 +10,4 @@ Goal for the next 6 months:-
 2. build 2-3 projects for resume
 3. believe in yourself
 
-Faiz
+  Faiz
