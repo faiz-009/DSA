@@ -1,7 +1,8 @@
-#DAY 1
-##10 August, 2022
+# DAY 1
+# 10 August, 2022
 
 love babbar sheet:-
+
 String
-1. (47) reverse string program		 
+1. reverse string program (47)		 
 
