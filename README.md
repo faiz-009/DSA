@@ -9,3 +9,5 @@ Goal for the next 6 months:-
 1. Solve more than 400+ problems on DSA
 2. build 2-3 projects for resume
 3. believe in yourself
+
+        faiz
