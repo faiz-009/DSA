@@ -7,5 +7,6 @@
 5. valid shuffle
 6. count and say
 7. longest Palindrome
+8. Print all substrings (56)
 
 
