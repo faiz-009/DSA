@@ -8,4 +8,6 @@ String
 2. palindrome String (48)
 3. print all duplicate characters (49)
 4. strings are rotatable or not (51)
+5. valid shuffle(52)
+6. Count and say (53)
 
