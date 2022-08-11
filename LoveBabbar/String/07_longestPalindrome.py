@@ -23,25 +23,42 @@ The result is the one with the least
 starting index.
 
 '''
-def longestPalindrome(s,n):
-    size = n
-    i=0
-    j=size-1
-    a = ''
-    b = ''
-    while i<=j:
-        if s[i] == s[j]:
-            a += s[i]
-            if i !=j :
-                b += s[j]
+def isPalindrome(s):
+    n = len(s)
+    i = 0
+    j = n-1
+    while i <= j:
+        if s[i] != s[j]:
+            return False
+        else:
             i+=1
             j-=1
+    return True
+
+def longestPalindrome(s,n, m):
+    if m == 1  : 
+        return s[0]
+    if m == 2 :
+        return s[:2]
+    
+    i = 0
+    j = i+n
+    while j<=m:
+        a = s[i:j]
+        if isPalindrome(a):
+            return a
         else:
-            return longestPalindrome(s,n-1)
+            i += 1 
+            j += 1
+    return longestPalindrome(s,n-1, m)
+
+
 
 if __name__ == '__main__':
     #code
     s = input("Enter the string: ")
     n = len(s)
+    m = len(s)
 
-    print(longestPalindrome(s,n))
+    print(longestPalindrome(s,n, m))
+    #print(isPalindrome("aaba"))
