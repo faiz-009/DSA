@@ -45,4 +45,4 @@ if __name__ == '__main__':
     q.dequeue()
     q.dequeue()
     
-    q. printQueue()
+    q.printQueue()
